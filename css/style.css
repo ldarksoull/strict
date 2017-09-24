@@ -45,7 +45,7 @@ body{
             /*header*/
 
 header{
-    background-image: url(../img/Image.jpg);
+    background-image: url(../img/bg-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
