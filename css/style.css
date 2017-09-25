@@ -166,44 +166,29 @@ header{
     color: #f1f2f3;
 }
 .name{
-<<<<<<< HEAD
-    width: 56%;
+    width: 57%;
     margin-top: 30px;
     padding: 10px;
     background: transparent;
     color: #fff;
 }
 .email{
-    width: 56%;
+    width: 57%;
     margin-top: 15px;
     padding: 10px;
     background: transparent;
     color: #fff;
 }
 .message{
-    width: 56%;
-=======
-    width: 50%;
-    margin-top: 30px;
-    padding: 10px;
-    background: transparent;
-}
-.email{
-    width: 50%;
+    width: 57%;
+    height: 250px;
     margin-top: 15px;
     padding: 10px;
     background: transparent;
+    color:#fff;
+    margin-bottom: 15px;
 }
-.message{
-    width: 50%;
->>>>>>> b5e4b28df91cb6f3805af308e8299efab46892f8
-    margin: 15px;
-    padding: 10px;
-    height: 20vh;
-    background: transparent;
-<<<<<<< HEAD
-    color: #fff;
-}
+
 .form-get{
     display: flex;
     justify-content: space-between;
@@ -225,20 +210,12 @@ header{
 .send:hover{
     color: #15a4fa;
     transition: 0.2s ease;
-=======
 }
 .subscribe{
-    position: relative;
-    left: 11.5vh;
 }
 .subscribe-radio-text{
-    position: relative;
-    left: 12.5vh;
 }
 .send{
-    position: relative;
-    right: 3.55vh;
->>>>>>> b5e4b28df91cb6f3805af308e8299efab46892f8
 }
 /*footer*/
 footer{
