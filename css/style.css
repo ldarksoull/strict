@@ -216,9 +216,19 @@ header{
     color: #15a4fa;
     transition: 0.2s ease;
 }
+<<<<<<< HEAD
     /*end content*/
 
     /*footer*/
+=======
+.subscribe{
+}
+.subscribe-radio-text{
+}
+.send{
+}
+/*footer*/
+>>>>>>> 0fcdc3504c5195ad72f3893de6ace09ad2aeee12
 footer{
     min-height: 15vh;
     display: flex;
