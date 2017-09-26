@@ -65,6 +65,7 @@ header{
     line-height: 0.8;
     margin-bottom: 5%;
     margin-top: 5%;
+    line-height: 1;
 }
 .btn{
     padding: 23px 33px;
@@ -74,7 +75,9 @@ header{
     margin: 5%;
 }
     /*begin content*/
+
     /*first block*/
+
 .main-content-1{
     min-height: 50vh;
     display: flex;
@@ -92,7 +95,8 @@ header{
     color: #999999;
 }
 
-/*second block*/
+    /*second block*/
+
 .main-content-2{
     min-height: 50vh;
     display: flex;
@@ -110,7 +114,9 @@ header{
     color: #999999;
     margin-bottom: 10%;
 }
-/*third block*/
+
+    /*third block*/
+
 .main-content-3{
     display: flex;
     justify-content: center;
@@ -141,7 +147,9 @@ header{
 .block-img{
     margin-bottom: 120px;
 }
-/*fourth-block*/
+
+    /*fourth-block*/
+
 .main-content-4{
     background-image: url(../img/Rectangle-25-copy2.png);
     background-size: cover;
@@ -166,51 +174,33 @@ header{
     color: #f1f2f3;
 }
 .name{
-<<<<<<< HEAD
-    width: 56%;
+    width: 57%;
     margin-top: 30px;
     padding: 10px;
     background: transparent;
     color: #fff;
 }
 .email{
-    width: 56%;
+    width: 57%;
     margin-top: 15px;
     padding: 10px;
     background: transparent;
     color: #fff;
 }
 .message{
-    width: 56%;
-=======
-    width: 50%;
-    margin-top: 30px;
-    padding: 10px;
-    background: transparent;
-}
-.email{
-    width: 50%;
+    width: 57%;
+    height: 250px;
     margin-top: 15px;
     padding: 10px;
     background: transparent;
+    color:#fff;
+    margin-bottom: 15px;
 }
-.message{
-    width: 50%;
->>>>>>> b5e4b28df91cb6f3805af308e8299efab46892f8
-    margin: 15px;
-    padding: 10px;
-    height: 20vh;
-    background: transparent;
-<<<<<<< HEAD
-    color: #fff;
-}
+
 .form-get{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.subscribe{
-
 }
 .subscribe-radio-text{
     margin: 10px;
@@ -225,22 +215,10 @@ header{
 .send:hover{
     color: #15a4fa;
     transition: 0.2s ease;
-=======
 }
-.subscribe{
-    position: relative;
-    left: 11.5vh;
-}
-.subscribe-radio-text{
-    position: relative;
-    left: 12.5vh;
-}
-.send{
-    position: relative;
-    right: 3.55vh;
->>>>>>> b5e4b28df91cb6f3805af308e8299efab46892f8
-}
-/*footer*/
+    /*end content*/
+
+    /*footer*/
 footer{
     min-height: 15vh;
     display: flex;
@@ -251,9 +229,14 @@ footer{
 .footer{
     color: #999999;
 }
-.text-right{
+.socials{
     color: #fff;
+    margin: 10px;
+    
 }
+    
+/*Icon styles*/
+
 .fa{
     background-color: #15a4fa;
     width: 30px;
@@ -262,35 +245,36 @@ footer{
     justify-content: center;
     align-items: center;
 }
-/*
-.item-1{
-    background-image: url(../img/Layer-29.png);
-}
-.item-2{
-    background-image: url(../img/Layer-31.jpg);
-}
-.item-3{
-    background-image: url(../img/Layer-32.jpg);
-}
-.item-4{
-    background-image: url(../img/Layer-33.jpg);
-}
-.item-5{
-    background-image: url(../img/Layer-34.jpg);
-}
-.item-6{
-    background-image: url(../img/Layer-35.jpg);
-}
-*/
 
-/*media*/
+    /*media*/
 @media screen and (max-width:768px){
     .header-h1{
         font-size: 90pt;
     }
+    .name{
+        width: 100%;
+    }
+    .email{
+        width: 100%;
+    }
+    .message{
+        width: 100%;
+    }
+    
 }
 @media screen and (max-width:400px){
     .header-h1{
         font-size: 50pt;
+    }
+}
+@media screen and (max-width:992px){
+    .name{
+        width: 82.5%;
+    }
+    .email{
+        width: 82.5%;
+    }
+    .message{
+        width: 82.5%;
     }
 }
